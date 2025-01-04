@@ -10,7 +10,14 @@ int main() {
     std::cout << "введите свой возраст: ";
     std::string years;
     std::cin >> years;
+    // запрашивает город проживания
+    std::cout << "введите город проживания: ";
+    std::string home;
+    std::cin >> home;
     // обобщение
     std::cout << "Здравствуйте, меня зовут " << name  << " мне " << years << " лет "<< std::endl;
+    std::cout << "Я живу в городе " << home << std::endl;
+
+
     return 0;
 }
